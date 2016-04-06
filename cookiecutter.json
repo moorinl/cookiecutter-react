@@ -1,0 +1,8 @@
+{
+    "full_name": "Rob Moorman",
+    "email": "rob@moori.nl",
+    "project_name": "Application",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "My application short description.",
+    "version": "0.1.0"
+}

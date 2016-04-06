@@ -1,17 +1,13 @@
-# React boilerplate
+# Cookiecutter React
 
-React boilderplate with preset development tools and common used libraries.
+A Cookiecutter template for React projects.
 
 ## Usage
 
-Install `npm` dependencies and build static files
+Install cookiecutter with pip.
 
-	$ make
+    $ pip install cookiecutter
 
-## Development
+Run the cookiecutter command with the git url:
 
-Start the `webpack-dev-server` by running
-
-	$ npm start
-
-Now point your browser to http://localhost:8000
+    $ cookiecutter gh:moorinteractive/cookiecutter-react

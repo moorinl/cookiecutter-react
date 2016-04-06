@@ -1,16 +1,15 @@
 {
-	"name": "application",
-	"version": "1.0.0",
-	"description": "My application.",
-	"repository": "https://github.com/moorinteractive/cookiecutter-react",
+	"name": "{{ cookiecutter.project_name }}",
+	"version": "{{ cookiecutter.version }}",
+	"description": "{{ cookiecutter.project_short_description }}",
 	"private": true,
 	"scripts": {
 		"start": "node webpack.server",
 		"build": "webpack",
 		"lint": "eslint src/js"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "{{ cookiecutter.full_name }} <{{ cookiecutter.email }}>",
+	"license": "MIT",
 	"devDependencies": {
 		"babel-cli": "^6.6.5",
 		"babel-core": "^6.7.4",
