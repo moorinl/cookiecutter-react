@@ -1,0 +1,9 @@
+@import "abstracts/variables";
+
+header {
+		background-color: $footer-bg-color;
+		border-bottom: 1px solid $header-border-color;
+		height: $header-height;
+		position: fixed;
+		width: 100%;
+}

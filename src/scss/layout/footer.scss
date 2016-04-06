@@ -1,0 +1,10 @@
+@import "abstracts/variables";
+
+footer {
+		background-color: $footer-bg-color;
+		border-top: 1px solid $footer-border-color;
+		bottom: 0;
+		height: $footer-height;
+		position: absolute;
+		width: 100%;
+}
